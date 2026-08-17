@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f6f7fb">
+<title>รับจ่ายแบบไม่จำกัด — เบิก จ่าย เก็บเอกสาร จบใน LINE</title>
+<meta name="description" content="ระบบจัดการรับ–จ่ายและเบิกค่าใช้จ่ายสำหรับธุรกิจ ผ่าน LINE พร้อม AI อ่านเอกสาร อนุมัติ บัญชีตรวจ จ่ายเงิน เก็บหลักฐาน กระทบยอด และ Dashboard ในระบบเดียว">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/site.css">
+<meta property="og:title" content="รับจ่ายแบบไม่จำกัด — เบิก จ่าย เก็บเอกสาร จบใน LINE">
+<meta property="og:description" content="จากแชทที่ตามสลิปและใบเสร็จไม่จบ ให้กลายเป็น Workflow รับ–จ่ายที่ทุกคนเห็นสถานะเดียวกัน">
+<meta property="og:type" content="website">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"รับจ่ายแบบไม่จำกัด","applicationCategory":"BusinessApplication","operatingSystem":"Web, LINE","description":"ระบบจัดการรับ–จ่ายและเบิกค่าใช้จ่ายสำหรับธุรกิจ ผ่าน LINE และ Dashboard","offers":[{"@type":"Offer","name":"Free","price":"0","priceCurrency":"THB"},{"@type":"Offer","name":"Lite","price":"199","priceCurrency":"THB"},{"@type":"Offer","name":"Pro","price":"399","priceCurrency":"THB"},{"@type":"Offer","name":"Business","price":"1290","priceCurrency":"THB"}]}</script>
+</head>
+<body>
+<header class="topbar">
+  <div class="container nav">
+    <a class="brand" href="#top" aria-label="รับจ่ายแบบไม่จำกัด หน้าแรก">
+      <span class="brand-mark">ร/จ</span>
+      <span class="brand-copy"><strong>รับจ่ายแบบไม่จำกัด</strong><span>Business Finance Workflow</span></span>
+    </a>
+    <nav class="nav-links" aria-label="เมนูหลัก">
+      <a href="#problems">ปัญหาที่เราแก้</a><a href="#how">วิธีทำงาน</a><a href="#features">ฟีเจอร์</a><a href="#pricing">ราคา</a><a href="#faq">คำถาม</a>
+    </nav>
+    <div class="nav-actions"><a class="btn primary" href="#trial">ทดลองฟรี 30 วัน</a><button class="btn menu-btn" data-menu aria-label="เปิดเมนู">☰</button></div>
+  </div>
+</header>
+<main id="top">
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow">Finance workflow ที่เริ่มจาก LINE</div>
+      <h1>เบิก จ่าย เก็บเอกสาร<br><span class="accent">จบใน LINE เดียว</span></h1>
+      <p class="hero-copy">เปลี่ยนงานรับ–จ่ายที่เคยกระจายอยู่ในแชท สลิป อีเมล และชีต ให้เป็นขั้นตอนเดียวที่พนักงาน หัวหน้า และฝ่ายบัญชีเห็นสถานะตรงกัน ตั้งแต่ส่งเอกสารจนจ่ายเงินเสร็จ</p>
+      <div class="hero-actions"><a class="btn accent" href="#trial">ทดลอง Business ฟรี 30 วัน</a><a class="btn" href="#how">ดูว่าระบบทำงานยังไง</a></div>
+      <div class="hero-note"><span>ไม่ต้องให้พนักงานเรียนโปรแกรมใหม่</span><span>LINE + Dashboard</span><span>ข้อมูลแยกตามบริษัท</span></div>
+    </div>
+    <div class="hero-visual" aria-label="ตัวอย่างการทำงานของระบบ">
+      <div class="hero-glow"></div>
+      <div class="app-window">
+        <div class="app-top"><i class="app-dot"></i><i class="app-dot"></i><i class="app-dot"></i><span class="app-label">Dashboard · ภาพรวมการเงิน</span></div>
+        <div class="app-body"><aside class="app-side"><div class="side-brand"></div><div class="side-line on"></div><div class="side-line"></div><div class="side-line"></div><div class="side-line"></div><div class="side-line"></div></aside><div class="app-main"><div class="app-title">งานที่ต้องจัดการวันนี้</div><div class="stats"><div class="stat"><small>รอตรวจเอกสาร</small><b>8 รายการ</b></div><div class="stat"><small>รอโอน</small><b>฿18,420</b></div><div class="stat"><small>จ่ายแล้ว</small><b>24 รายการ</b></div></div><div class="flow-list"><div class="flow-row"><div class="flow-icon">01</div><div><strong>ค่าเดินทางทีมขาย</strong><span>ผู้เบิก · ณัฐ · 1,280 บาท</span></div><i class="status">รอตรวจ</i></div><div class="flow-row"><div class="flow-icon">02</div><div><strong>ค่าสื่อโฆษณา</strong><span>ผู้เบิก · เมย์ · 6,400 บาท</span></div><i class="status">อนุมัติแล้ว</i></div><div class="flow-row"><div class="flow-icon">03</div><div><strong>ค่าวัสดุสำนักงาน</strong><span>ผู้เบิก · ต้น · 740 บาท</span></div><i class="status">จ่ายแล้ว</i></div></div></div></div>
+      </div>
+      <div class="phone"><div class="phone-screen"><div class="phone-head">รับจ่ายแบบไม่จำกัด</div><div class="chat"><div class="bubble me">เบิกค่าแท็กซี่ 420 บาทครับ</div><div class="bot-card"><span class="tag">AI อ่านเอกสารแล้ว</span><h4>ค่าเดินทาง · 420 บาท</h4><p>ตรวจข้อมูลก่อนส่งตั้งเบิก</p><div class="bot-buttons"><span>แก้ไข</span><span>ตั้งเบิก</span></div></div><div class="bubble">ส่งให้ผู้อนุมัติแล้ว ✓</div><div class="bubble">บริษัทโอนเงินคืนแล้ว พร้อมหลักฐานการโอน ✓</div></div></div></div>
+    </div>
+  </div>
+</section>
+<section class="trust-strip"><div class="container trust-box reveal"><div class="trust-item"><b>LINE เป็นหน้าบ้าน</b><span>พนักงานทำงานจากที่คุ้นเคย</span></div><div class="trust-item"><b>Dashboard เป็นหลังบ้าน</b><span>บัญชีและเจ้าของเห็นภาพรวม</span></div><div class="trust-item"><b>Google เป็นที่เก็บงาน</b><span>เชื่อม Sheet / Drive / อีเมลของบริษัท</span></div><div class="trust-item"><b>AI ช่วยลดงานกรอก</b><span>อ่านข้อมูลสำคัญจากเอกสารให้อัตโนมัติ</span></div></div></section>
+
+<section class="section" id="problems">
+  <div class="container">
+    <div class="section-head"><div class="eyebrow">ปัญหาที่เจอบ่อยในบริษัท</div><h2>ถ้าการเบิกจ่ายยังอยู่ในแชท<br>งานบัญชีก็ต้องตามทั้งวัน</h2><p class="lead">ระบบถูกออกแบบมาจากปัญหาหน้างานจริง ไม่ใช่แค่เปลี่ยนกระดาษเป็นฟอร์มออนไลน์ แต่ทำให้แต่ละขั้นรู้ว่า “ใครต้องทำอะไรต่อ”</p></div>
+    <div class="problem-grid">
+      <article class="problem-card reveal"><div class="problem-icon">💬</div><h3>สลิปและใบเสร็จจมหายในแชท</h3><p>ย้อนหาไม่เจอ ส่งซ้ำหลายรอบ และไม่รู้ว่าเอกสารใบไหนเป็นของรายการไหน</p></article>
+      <article class="problem-card reveal"><div class="problem-icon">🔎</div><h3>ไม่รู้ว่าใครเบิก ใครโอน ใครอนุมัติ</h3><p>ข้อมูลคนละส่วนอยู่คนละข้อความ ทำให้ตรวจย้อนหลังยากและเสียเวลาถามกันซ้ำ</p></article>
+      <article class="problem-card reveal"><div class="problem-icon">⏳</div><h3>บัญชีต้องตามเอกสารเอง</h3><p>รายการรอตรวจ รอแก้ รอโอน และรอสลิปปะปนกันจนไม่รู้ว่างานไหนค้างตรงไหน</p></article>
+      <article class="problem-card reveal"><div class="problem-icon">📄</div><h3>ทำใบเบิกซ้ำจากข้อมูลเดิม</h3><p>พนักงานกรอกครั้งหนึ่ง บัญชีกลับต้องคีย์ซ้ำเพื่อทำใบเบิกหรือใบแทนใบเสร็จ</p></article>
+      <article class="problem-card reveal"><div class="problem-icon">✉️</div><h3>ใบเสร็จออนไลน์กระจายอยู่ในอีเมล</h3><p>Subscription และบริการออนไลน์ส่งใบเสร็จเข้าอีเมล แต่ฝ่ายบัญชีต้องเข้าไปค้นหาเองทุกเดือน</p></article>
+      <article class="problem-card reveal"><div class="problem-icon">⟳</div><h3>เอกสารซ้ำและรายการซ้ำ</h3><p>เอกสารเดิมถูกส่งซ้ำจากหลายคนหรือหลายช่องทาง ถ้าไม่ตรวจให้ดีมีโอกาสบันทึกซ้ำ</p></article>
+      <article class="problem-card reveal"><div class="problem-icon">🏦</div><h3>ไม่รู้ว่าเงินออกจากบัญชีไหน</h3><p>ยอดรวมอาจถูก แต่ถ้าไม่ผูกช่องทางการเงินจะตอบไม่ได้ว่าเงินคงเหลืออยู่ที่ไหนเท่าไร</p></article>
+      <article class="problem-card reveal"><div class="problem-icon">👥</div><h3>ทุกคนเห็นข้อมูลมากเกินจำเป็น</h3><p>เจ้าของ ผู้อนุมัติ ฝ่ายบัญชี และพนักงานควรเห็นและทำงานได้ต่างกันตามหน้าที่</p></article>
+    </div>
+    <div class="before-after reveal"><div><div class="ba-title">ก่อนใช้</div><div class="ba-list"><div class="ba-item"><span class="ba-mark">×</span><span><b>ถามใน LINE:</b> รายการนี้อนุมัติหรือยัง?</span></div><div class="ba-item"><span class="ba-mark">×</span><span><b>ค้นในแชท:</b> สลิปของรายการนี้อยู่ไหน?</span></div><div class="ba-item"><span class="ba-mark">×</span><span><b>คีย์ซ้ำ:</b> ข้อมูลเดียวกันจากแชทลง Sheet แล้วทำเอกสารอีกครั้ง</span></div><div class="ba-item"><span class="ba-mark">×</span><span><b>สิ้นเดือน:</b> ไล่เช็กเอกสาร อีเมล และยอดบัญชีทีละส่วน</span></div></div></div><div class="after"><div class="ba-title">หลังใช้</div><div class="ba-list"><div class="ba-item"><span class="ba-mark">✓</span><span><b>สถานะเดียวกัน:</b> ทุกคนรู้ว่างานอยู่ขั้นไหน</span></div><div class="ba-item"><span class="ba-mark">✓</span><span><b>หลักฐานผูกกับรายการ:</b> เปิดจาก Dashboard ได้ทันที</span></div><div class="ba-item"><span class="ba-mark">✓</span><span><b>สร้างเอกสารต่อจากข้อมูลเดิม:</b> ลดงานกรอกซ้ำ</span></div><div class="ba-item"><span class="ba-mark">✓</span><span><b>เห็นภาพรวม:</b> งานค้าง เงินเข้า–ออก และสิ่งที่ต้องทำต่ออยู่ในที่เดียว</span></div></div></div></div>
+  </div>
+</section>
+
+<section class="section compact" id="how">
+  <div class="container">
+    <div class="section-head center"><div class="eyebrow">หนึ่ง Flow ตั้งแต่ต้นจนจบ</div><h2>พนักงานเริ่มใน LINE<br>ฝ่ายบัญชีจบงานใน Dashboard</h2><p class="lead">ไม่ต้องคอยบอกกันว่า “ทำขั้นต่อไปแล้วนะ” ระบบพาสถานะเดินตามงานจริง</p></div>
+    <div class="steps">
+      <article class="step reveal"><div class="step-num">1</div><h3>ส่งหลักฐาน</h3><p>ถ่ายรูปหรือส่งเอกสารเข้า LINE ได้หลายรูปต่อรายการ</p></article>
+      <article class="step reveal"><div class="step-num">2</div><h3>ระบบช่วยอ่าน</h3><p>AI อ่านยอด วันที่ ร้านค้า VAT และข้อมูลสำคัญให้ตรวจแก้ได้</p></article>
+      <article class="step reveal"><div class="step-num">3</div><h3>ตั้งเบิก / อนุมัติ</h3><p>ส่งต่อผู้อนุมัติตามสิทธิ์ พร้อมแจ้งสถานะผ่าน LINE</p></article>
+      <article class="step reveal"><div class="step-num">4</div><h3>บัญชีตรวจ</h3><p>เอกสารผ่านก็ไปต่อ มีปัญหาก็ตีกลับพร้อมเหตุผลให้แก้เฉพาะจุด</p></article>
+      <article class="step reveal"><div class="step-num">5</div><h3>โอนและแนบสลิป</h3><p>บันทึกช่องทางที่จ่าย แนบหลักฐาน แล้วผูกกลับเข้ารายการเดิม</p></article>
+      <article class="step reveal"><div class="step-num">6</div><h3>แจ้งกลับและเก็บงาน</h3><p>ผู้เบิกรู้ว่าจ่ายแล้ว เอกสารถูกเก็บพร้อมประวัติสำหรับตรวจย้อนหลัง</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="features">
+  <div class="container">
+    <div class="section-head"><div class="eyebrow">ฟีเจอร์ทั้งหมด</div><h2>ไม่ใช่แค่บันทึกรายจ่าย<br>แต่จัดการ “งานการเงิน” ให้เดินต่อ</h2><p class="lead">ทุกแพ็กใช้ฟีเจอร์หลักเหมือนกัน ต่างกันที่จำนวนรายการ จำนวนเอกสารที่ระบบอ่านอัตโนมัติ และจำนวนบริษัทที่ใช้งาน</p></div>
+    <div class="feature-stack">
+      <article class="feature-band reveal"><div class="feature-copy"><div class="eyebrow">LINE Expense</div><h3>รับข้อมูลจาก LINE แล้วเปลี่ยนเป็นรายการที่ตามงานต่อได้</h3><p>พนักงานไม่ต้องเปิดโปรแกรมใหม่เพื่อส่งค่าใช้จ่าย ระบบรับข้อมูลจาก LINE แล้วพาเข้าสู่ขั้นตอนตรวจและจ่าย</p><div class="checks"><span class="check">ส่งรูปหลายใบในรายการเดียว และแยกรายการได้</span><span class="check">ดูผู้เบิก ผู้โอน ผู้รับเงิน วันที่ และยอดในรายการเดียว</span><span class="check">แก้ข้อมูลก่อนบันทึก ถ้า AI อ่านไม่ครบยังกรอกเองต่อได้</span><span class="check">ตรวจเอกสารและรายการซ้ำเพื่อลดการบันทึกซ้ำ</span></div></div><div class="feature-ui"><div class="mini-table"><div class="mini-table-head"><span>รายการ</span><span>ผู้เบิก</span><span>ยอด</span><span>สถานะ</span></div><div class="mini-table-row"><b>ค่าเดินทาง</b><span>กอล์ฟ</span><span>฿420</span><i class="pill">รอตรวจ</i></div><div class="mini-table-row"><b>ค่าโฆษณา</b><span>เมย์</span><span>฿8,900</span><i class="pill green">ผ่านแล้ว</i></div><div class="mini-table-row"><b>อุปกรณ์สำนักงาน</b><span>นัท</span><span>฿1,240</span><i class="pill green">จ่ายแล้ว</i></div></div></div></article>
+
+      <article class="feature-band reveal"><div class="feature-copy"><div class="eyebrow">Approval & Reimbursement</div><h3>ตั้งเบิก → อนุมัติ → บัญชีตรวจ → จ่าย ครบใน Flow เดียว</h3><p>เปลี่ยนงานที่เคยถามกันในแชทให้มีสถานะชัดเจน พร้อมเหตุผลเมื่อเอกสารต้องแก้</p><div class="checks"><span class="check">รอเข้ารอบ / รอตรวจเอกสาร / ต้องแก้ไข / รอโอน / รอหลักฐาน / จ่ายแล้ว</span><span class="check">ตีกลับพร้อมเหตุผล และส่งกลับมาตรวจใหม่ได้</span><span class="check">รอบเบิกปกติและรอบด่วน พร้อมรวมหลายรายการเป็นรอบเดียว</span><span class="check">ส่งแจ้งเตือนไปยังผู้อนุมัติ ฝ่ายบัญชี และผู้เบิกตามเหตุการณ์</span></div></div><div class="feature-ui"><div class="mail-ui"><div class="mail-row"><div class="mail-logo">01</div><div><strong>ตั้งเบิกแล้ว</strong><small>รอผู้อนุมัติตรวจ</small></div><i class="pill">รออนุมัติ</i></div><div class="mail-row"><div class="mail-logo">02</div><div><strong>เอกสารผ่าน</strong><small>ฝ่ายบัญชีพร้อมดำเนินการ</small></div><i class="pill green">ผ่านแล้ว</i></div><div class="mail-row"><div class="mail-logo">03</div><div><strong>โอนเงินคืนแล้ว</strong><small>แนบหลักฐานและแจ้งผู้เบิก</small></div><i class="pill green">จ่ายแล้ว</i></div></div></div></article>
+
+      <article class="feature-band reveal"><div class="feature-copy"><div class="eyebrow">Automatic Documents</div><h3>ข้อมูลที่บันทึกแล้ว ไม่ควรต้องกรอกซ้ำเพื่อทำเอกสาร</h3><p>ระบบนำข้อมูลจากรายการไปสร้างเอกสารที่เกี่ยวข้อง พร้อมเก็บลิงก์ไว้กับรายการและในพื้นที่ของบริษัท</p><div class="checks"><span class="check">สร้างใบขอเบิกเป็น PDF อัตโนมัติ</span><span class="check">สร้างใบแทนใบเสร็จเมื่อจำเป็น พร้อมข้อมูลผู้เบิกและผู้อนุมัติ</span><span class="check">ตั้งค่าโลโก้และลายเซ็นของบริษัทครั้งเดียว</span><span class="check">เก็บไฟล์และลิงก์เอกสารใน Google Drive / Sheet ที่เชื่อมไว้</span></div></div><div class="feature-ui"><div class="doc-stack"><div class="doc"><div class="doc-logo"></div><b>ใบขอเบิก</b><div class="doc-line"></div><div class="doc-line w"></div><div class="doc-line"></div><div class="doc-amount">฿4,850</div></div><div class="doc"><div class="doc-logo"></div><b>ใบแทนใบเสร็จ</b><div class="doc-line w"></div><div class="doc-line"></div><div class="doc-line w"></div><div class="doc-amount">อนุมัติ ✓</div></div></div></div></article>
+
+      <article class="feature-band reveal"><div class="feature-copy"><div class="eyebrow">Email Receipt Inbox</div><h3>ใบเสร็จที่เข้าอีเมล ไม่ต้องให้บัญชีค้นหาเองทุกเดือน</h3><p>เชื่อมอีเมลของบริษัท 1 บัญชี เพื่อดึงใบเสร็จและเอกสารที่เกี่ยวข้องเข้ามาจัดการต่อในระบบ</p><div class="checks"><span class="check">รองรับใบเสร็จบริการออนไลน์และเอกสารที่ส่งเข้ากล่องอีเมล</span><span class="check">AI ช่วยอ่านข้อมูลจากเอกสารที่ดึงเข้ามา</span><span class="check">เก็บเข้าสู่ Dashboard เพื่อให้บัญชีตรวจและจัดหมวดต่อ</span><span class="check">โควตาการอ่านเอกสารนับรวมกับเอกสารจาก LINE อย่างชัดเจน</span></div></div><div class="feature-ui"><div class="mail-ui"><div class="mail-row"><div class="mail-logo">@</div><div><strong>ใบเสร็จบริการออนไลน์</strong><small>ตรวจพบเอกสารแนบ · พร้อมอ่านข้อมูล</small></div><i class="pill">ใหม่</i></div><div class="mail-row"><div class="mail-logo">PDF</div><div><strong>ใบกำกับภาษี</strong><small>อ่านยอดและเลขเอกสารแล้ว</small></div><i class="pill green">พร้อมตรวจ</i></div><div class="mail-row"><div class="mail-logo">✓</div><div><strong>บันทึกเข้าระบบ</strong><small>เชื่อมกับรายการรายจ่ายแล้ว</small></div><i class="pill green">เรียบร้อย</i></div></div></div></article>
+
+      <article class="feature-band reveal"><div class="feature-copy"><div class="eyebrow">Money & Reconciliation</div><h3>รู้ว่าเงินเข้า–ออกทางไหน และรายการไหนยังจับคู่ไม่ครบ</h3><p>เชื่อมรายการกับช่องทางการเงินจริง เพื่อให้ภาพรวมไม่ได้มีแค่ยอดรวม แต่ตอบได้ว่าเงินอยู่ที่ไหน</p><div class="checks"><span class="check">ตั้งค่าบัญชีธนาคาร เงินสด หรือช่องทางการเงินของบริษัท</span><span class="check">รายรับเพิ่มยอด และรายการที่จ่ายแล้วหักออกจากช่องทางที่เลือก</span><span class="check">จับคู่รายการรับ–จ่ายกับข้อมูลการเงิน และแยกสถานะตรงกัน/ยังไม่ตรงกัน</span><span class="check">ดูยอดเงินคงเหลือแต่ละช่องทางจาก Dashboard</span></div></div><div class="feature-ui"><div class="account-ui"><div class="account-card"><small>บัญชีดำเนินงาน</small><strong>฿284,950</strong><div class="account-bar"></div></div><div class="account-card"><small>เงินสดย่อย</small><strong>฿18,420</strong><div class="account-bar"></div></div><div class="account-card"><small>รับเข้าเดือนนี้</small><strong>+฿91,200</strong><i class="pill green">รับแล้ว</i></div><div class="account-card"><small>รอจับคู่</small><strong>7 รายการ</strong><i class="pill">ตรวจต่อ</i></div></div></div></article>
+
+      <article class="feature-band reveal"><div class="feature-copy"><div class="eyebrow">Team & Control</div><h3>ให้แต่ละคนเห็นและทำเฉพาะสิ่งที่เกี่ยวกับหน้าที่ตัวเอง</h3><p>เจ้าของ ผู้อนุมัติ ฝ่ายบัญชี และผู้ดูข้อมูลทำงานร่วมกันได้ โดยไม่ต้องแชร์สิทธิ์ทุกอย่างให้ทุกคน</p><div class="checks"><span class="check">แยกบทบาท Owner / Accounting / Approver / Viewer</span><span class="check">กำหนดสิทธิ์พนักงานและผูกกับกลุ่ม LINE ที่เกี่ยวข้อง</span><span class="check">ดูประวัติการทำงานสำคัญว่าใครดำเนินการอะไร</span><span class="check">ข้อมูลแยกตามบริษัทและ Workspace ไม่ปะปนกัน</span></div></div><div class="feature-ui"><div class="role-ui"><div class="role-row"><div class="role-name"><i class="avatar">ME</i>เจ้าของบริษัท</div><span class="role-badge">ดูและจัดการทั้งหมด</span></div><div class="role-row"><div class="role-name"><i class="avatar">AC</i>ฝ่ายบัญชี</div><span class="role-badge">ตรวจ / จ่าย / รายงาน</span></div><div class="role-row"><div class="role-name"><i class="avatar">AP</i>ผู้อนุมัติ</div><span class="role-badge">ตรวจและอนุมัติ</span></div><div class="role-row"><div class="role-name"><i class="avatar">VI</i>ผู้ดูข้อมูล</div><span class="role-badge">ดูอย่างเดียว</span></div></div></div></article>
+    </div>
+
+    <div class="feature-index">
+      <article class="reveal"><h4>รายรับและลูกหนี้</h4><p>บันทึกรายรับ เอกสารขาย ยอดที่รับแล้ว/คงค้าง และผูกช่องทางรับเงิน</p></article>
+      <article class="reveal"><h4>เจ้าหนี้และจ่ายผู้ขาย</h4><p>เก็บบิลค้างจ่าย ยอดที่ต้องจ่ายจริง WHT หลักฐาน และสถานะการชำระ</p></article>
+      <article class="reveal"><h4>ข้อมูลคู่ค้า</h4><p>เก็บลูกค้า/ผู้ขาย Tax ID สาขา ที่อยู่ เครดิตเทอม และข้อมูลติดต่อไว้ใช้ซ้ำ</p></article>
+      <article class="reveal"><h4>ค้นหาข้อมูลรวม</h4><p>ค้นหารายจ่าย รายรับ เจ้าหนี้ คู่ค้า และประวัติเดิมจากจุดเดียว</p></article>
+      <article class="reveal"><h4>ภาษี VAT / WHT</h4><p>เก็บข้อมูล VAT และภาษีหัก ณ ที่จ่ายในรายการเพื่อให้ตรวจและสรุปได้ง่ายขึ้น</p></article>
+      <article class="reveal"><h4>สมุดรายวันอัตโนมัติ</h4><p>รายการสำคัญสามารถสร้าง Journal ต่อจากข้อมูลธุรกรรม เพื่อลดการบันทึกซ้ำ</p></article>
+      <article class="reveal"><h4>ปิดงวดและป้องกันแก้ย้อนหลัง</h4><p>เมื่องวดถูกปิด ระบบป้องกันการแก้รายการย้อนหลังจนกว่าจะเปิดงวดใหม่</p></article>
+      <article class="reveal"><h4>นำเข้าข้อมูลเดิม</h4><p>รองรับการย้ายข้อมูลและเก็บประวัติเดิมไว้ค้นหาต่อ โดยไม่ต้องทิ้งข้อมูลเก่า</p></article>
+      <article class="reveal"><h4>รายงานและ Export</h4><p>ดูข้อมูลใน Dashboard และส่งออกข้อมูลสำหรับทำงานต่อกับฝ่ายบัญชีหรือธนาคาร</p></article>
+      <article class="reveal"><h4>สำรองข้อมูลและประวัติ</h4><p>มีโครงสร้าง Backup และ Audit Log สำหรับงานสำคัญของแต่ละบริษัท</p></article>
+      <article class="reveal"><h4>โปรไฟล์พนักงานและบัญชีรับเงิน</h4><p>เก็บข้อมูลที่จำเป็นกับการเบิก เพื่อไม่ต้องถามเลขบัญชีซ้ำทุกครั้ง</p></article>
+      <article class="reveal"><h4>ใช้งานบนมือถือ</h4><p>หน้าเบิก ตรวจ และจัดการหลักถูกออกแบบให้ทำงานต่อได้จากโทรศัพท์และ LINE in-app browser</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="pricing">
+  <div class="container">
+    <div class="pricing-wrap reveal">
+      <div class="pricing-top"><div><div class="eyebrow" style="color:#9f99ff">แพ็กเกจ</div><h2>ฟีเจอร์หลักเหมือนกัน<br>เลือกตามปริมาณที่ใช้</h2></div><div><p>ไม่ล็อกฟีเจอร์สำคัญไว้เฉพาะแพ็กแพงกว่า ต่างกันที่จำนวนรายการ จำนวนเอกสารที่ AI ช่วยอ่าน และจำนวนบริษัท</p><div class="cycle" style="margin-top:14px"><button class="active" data-cycle="monthly">รายเดือน</button><button data-cycle="annual">รายปี <span class="save">ประหยัด ~17%</span></button></div></div></div>
+      <div class="pricing-grid">
+        <article class="price-card" data-price-card data-monthly="0" data-annual="0"><div class="price-name">Free</div><div class="price-value" data-price><b>0 บาท</b><span>/เดือน</span></div><div class="price-sub" data-billing-note>ไม่มีค่าบริการ</div><div class="price-quota"><strong>5 ใบ/เดือน</strong><span>AI อ่านใบเสร็จและเอกสารอัตโนมัติ</span></div><ul class="price-list"><li>20 รายการรับ–จ่าย/เดือน</li><li>1 บริษัท</li><li>ฟีเจอร์หลักครบ</li><li>ผู้ใช้งานผ่าน LINE ไม่จำกัด</li><li>เชื่อมอีเมลของบริษัท 1 บัญชี</li></ul><a class="btn" href="#trial">เริ่มทดลองใช้</a></article>
+        <article class="price-card" data-price-card data-monthly="199" data-annual="1990"><div class="price-name">Lite</div><div class="price-value" data-price><b>199 บาท</b><span>/เดือน</span></div><div class="price-sub" data-billing-note>ชำระรายเดือน · ยกเลิกก่อนรอบถัดไปได้</div><div class="price-quota"><strong>30 ใบ/เดือน</strong><span>AI อ่านใบเสร็จและเอกสารอัตโนมัติ</span></div><ul class="price-list"><li>200 รายการรับ–จ่าย/เดือน</li><li>1 บริษัท</li><li>ฟีเจอร์หลักครบ</li><li>ผู้ใช้งานผ่าน LINE ไม่จำกัด</li><li>เชื่อมอีเมลของบริษัท 1 บัญชี</li></ul><a class="btn" href="#trial">ทดลอง Business ก่อนฟรี</a></article>
+        <article class="price-card recommended" data-price-card data-monthly="399" data-annual="3990"><span class="price-ribbon">แนะนำ</span><div class="price-name">Pro</div><div class="price-value" data-price><b>399 บาท</b><span>/เดือน</span></div><div class="price-sub" data-billing-note>ชำระรายเดือน · ยกเลิกก่อนรอบถัดไปได้</div><div class="price-quota"><strong>150 ใบ/เดือน</strong><span>AI อ่านใบเสร็จและเอกสารอัตโนมัติ</span></div><ul class="price-list"><li>1,000 รายการรับ–จ่าย/เดือน</li><li>1 บริษัท</li><li>ฟีเจอร์หลักครบ</li><li>ผู้ใช้งานผ่าน LINE ไม่จำกัด</li><li>เชื่อมอีเมลของบริษัท 1 บัญชี</li></ul><a class="btn" href="#trial">ทดลอง Business ก่อนฟรี</a></article>
+        <article class="price-card" data-price-card data-monthly="1290" data-annual="12900"><div class="price-name">Business</div><div class="price-value" data-price><b>1,290 บาท</b><span>/เดือน</span></div><div class="price-sub" data-billing-note>ชำระรายเดือน · ยกเลิกก่อนรอบถัดไปได้</div><div class="price-quota"><strong>1,000 ใบ/เดือน</strong><span>AI อ่านใบเสร็จและเอกสารอัตโนมัติ</span></div><ul class="price-list"><li>3,000 รายการรับ–จ่าย/เดือน</li><li>สูงสุด 2 บริษัท</li><li>ฟีเจอร์หลักครบ</li><li>ผู้ใช้งานผ่าน LINE ไม่จำกัด</li><li>เชื่อมอีเมล 1 บัญชีต่อบริษัท</li></ul><a class="btn" href="#trial">ทดลอง Business ฟรี 30 วัน</a></article>
+      </div>
+      <div class="pricing-foot"><span><b>ราคาไม่รวม VAT</b> หากมีการเรียกเก็บตามกฎหมาย</span><span>เมื่อใช้โควตา AI ครบ ยังบันทึกรายการแบบกรอกเองต่อได้</span><span>โควตา AI นับ 1 เอกสารที่ประมวลผลสำเร็จ = 1 ครั้ง</span></div>
+      <div class="trial-card"><div class="trial-number">30</div><div><h3>ทดลองใช้ Business ฟรี 30 วัน</h3><p>สูงสุด 1,000 รายการ · AI อ่านเอกสารอัตโนมัติ 100 ใบ · ใช้ได้สูงสุด 2 บริษัท · เริ่มนับเมื่อเริ่มใช้งานจริง และช่วงทดลองไม่มีการตัดเงินอัตโนมัติ</p></div><a class="btn accent" href="#trial">ขอทดลองใช้</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="section compact" id="faq">
+  <div class="container"><div class="section-head center"><div class="eyebrow">คำถามที่มักถูกถาม</div><h2>เข้าใจก่อนเริ่มใช้</h2></div><div class="faq">
+    <details><summary>ต้องเปลี่ยนจาก LINE ไปใช้แอปใหม่ไหม?</summary><p>ไม่จำเป็น พนักงานเริ่มส่งข้อมูลและทำงานหลายขั้นจาก LINE ได้ ส่วนเจ้าของและฝ่ายบัญชีใช้ Dashboard สำหรับตรวจ จ่าย รายงาน และตั้งค่าระบบ</p></details>
+    <details><summary>AI อ่านเอกสารคืออะไร?</summary><p>เมื่อส่งใบเสร็จ สลิป หรือเอกสาร ระบบช่วยอ่านข้อมูลสำคัญ เช่น ยอดเงิน วันที่ ร้านค้า และข้อมูลภาษี เพื่อลดการกรอกเอง ผู้ใช้ยังตรวจและแก้ไขก่อนบันทึกได้</p></details>
+    <details><summary>ถ้า AI อ่านผิดหรือใช้โควตาครบ งานจะหยุดไหม?</summary><p>ไม่หยุด หากข้อมูลไม่ครบสามารถแก้หรือกรอกเองได้ และเมื่อโควตา AI ของเดือนนั้นเต็ม รายการยังบันทึกแบบ Manual ต่อได้</p></details>
+    <details><summary>1 เอกสารนับ AI กี่ครั้ง?</summary><p>หลักการคือเอกสารหนึ่งชุดที่ประมวลผลสำเร็จคิดหนึ่งครั้ง การ Retry หรือ Fallback ภายในกระบวนการอ่านครั้งเดียวไม่คิดซ้ำ</p></details>
+    <details><summary>เชื่อมอีเมลได้กี่บัญชี?</summary><p>ระบบปัจจุบันเชื่อมอีเมลของบริษัทได้ 1 บัญชีต่อบริษัท เพื่อดึงใบเสร็จและเอกสารเข้ามาจัดการอัตโนมัติ</p></details>
+    <details><summary>ข้อมูลเอกสารเก็บที่ไหน?</summary><p>ระบบทำงานร่วมกับ Google Sheet และ Google Drive ของบริษัทที่เชื่อมไว้ รวมถึงข้อมูลสถานะที่จำเป็นต่อการทำงานของระบบ</p></details>
+    <details><summary>ทดลองใช้ฟรีแล้วจะโดนตัดเงินอัตโนมัติไหม?</summary><p>ไม่ ช่วงทดลอง 30 วันไม่มีการตัดเงินอัตโนมัติ การเริ่มแพ็กเกจแบบชำระเงินจริงต้องมีขั้นตอนยืนยันการชำระเงิน</p></details>
+    <details><summary>Free / Lite / Pro / Business ฟีเจอร์ต่างกันไหม?</summary><p>ฟีเจอร์หลักเหมือนกัน ความต่างหลักคือจำนวนรายการต่อเดือน จำนวนเอกสารที่ AI อ่านให้อัตโนมัติ และจำนวนบริษัทที่ใช้งานได้</p></details>
+    <details><summary>ระบบนี้แทนโปรแกรมบัญชีได้ทั้งหมดไหม?</summary><p>ระบบเน้นจัดการงานรับ–จ่าย เอกสาร การอนุมัติ การจ่าย และงานบัญชีหลังบ้านบางส่วน เพื่อให้ข้อมูลพร้อมทำงานต่อ การยื่นภาษีหรือหน้าที่ตามกฎหมายควรดำเนินการตามกระบวนการของบริษัทและผู้ทำบัญชีของคุณ</p></details>
+    <details><summary>ถ้ามีหลายบริษัทใช้บัญชีเดียวกันได้ไหม?</summary><p>Business รองรับสูงสุด 2 บริษัท โดยข้อมูลและ Workspace แยกจากกัน แพ็กอื่นรองรับ 1 บริษัท</p></details>
+  </div></div>
+</section>
+
+<section class="section trial-section" id="trial">
+  <div class="container"><div class="trial-form-wrap reveal"><div class="trial-copy-panel"><div class="eyebrow" style="color:#9f99ff">เริ่มจากงานจริงของบริษัทคุณ</div><h2>ทดลองใช้ฟรี<br>ก่อนตัดสินใจ</h2><p>ส่งข้อมูลสั้น ๆ ให้ทีมเตรียม Workspace ทดลองให้เหมาะกับวิธีทำงานของบริษัท 30 วันจะเริ่มนับเมื่อเริ่มใช้งานจริง ไม่ได้นับจากวันที่ส่งฟอร์ม</p><div class="trial-points"><span>Business ทุกฟีเจอร์หลัก</span><span>1,000 รายการระหว่างทดลอง</span><span>AI อ่านเอกสาร 100 ใบ</span><span>สูงสุด 2 บริษัท</span><span>ไม่มีการตัดเงินอัตโนมัติในช่วงทดลอง</span></div></div><form class="trial-form" id="trialForm" method="post" action="https://accoutingsuppor02.organization-23c.workers.dev/pilot/request"><div class="form-grid"><div class="field"><label for="contactName">ชื่อผู้ติดต่อ *</label><input id="contactName" name="contactName" required maxlength="100" autocomplete="name" placeholder="ชื่อ-นามสกุล"></div><div class="field"><label for="businessName">ชื่อบริษัท / กิจการ *</label><input id="businessName" name="businessName" required maxlength="160" autocomplete="organization" placeholder="บริษัท ABC จำกัด"></div><div class="field full"><label for="email">อีเมล Google ที่จะใช้เชื่อมระบบ *</label><input id="email" type="email" name="email" required maxlength="200" autocomplete="email" placeholder="name@company.com"></div><div class="field"><label for="phone">เบอร์โทรศัพท์</label><input id="phone" name="phone" type="tel" maxlength="80" autocomplete="tel" placeholder="08x-xxx-xxxx"></div><div class="field"><label for="lineId">LINE ID</label><input id="lineId" name="lineId" maxlength="100" placeholder="LINE ID หรือชื่อที่ใช้ติดต่อ"></div><div class="field"><label for="employeeCount">จำนวนพนักงาน</label><select id="employeeCount" name="employeeCount"><option value="">เลือกช่วง</option><option>1–5 คน</option><option>6–20 คน</option><option>21–50 คน</option><option>51–100 คน</option><option>มากกว่า 100 คน</option></select></div><div class="field"><label for="monthlyDocuments">รายการ/เอกสารต่อเดือน</label><select id="monthlyDocuments" name="monthlyDocuments"><option value="">เลือกช่วง</option><option>ไม่เกิน 50 รายการ</option><option>51–300 รายการ</option><option>301–1,000 รายการ</option><option>มากกว่า 1,000 รายการ</option></select></div><div class="field full"><label for="currentProcess">ตอนนี้จัดการเบิกจ่ายด้วยวิธีไหน</label><select id="currentProcess" name="currentProcess"><option value="">เลือกวิธีปัจจุบัน</option><option>LINE / แชท</option><option>Google Form / Google Sheet</option><option>Excel</option><option>โปรแกรมบัญชี</option><option>เอกสารกระดาษ</option><option>หลายวิธีผสมกัน</option><option>อื่น ๆ</option></select></div><div class="field full"><label for="problem">ปัญหาที่อยากให้ระบบช่วยแก้</label><textarea id="problem" name="problem" maxlength="800" placeholder="เช่น ตามใบเสร็จยาก ไม่รู้ว่ารายการไหนอนุมัติแล้ว เอกสารหาย ใช้เวลาตรวจนาน"></textarea></div><div class="field full"><label>ส่วนที่สนใจ</label><div style="display:flex;flex-wrap:wrap;gap:9px;font-size:11px;color:#555b64"><label><input type="checkbox" name="interest" value="เบิกจ่ายผ่าน LINE"> เบิกจ่ายผ่าน LINE</label><label><input type="checkbox" name="interest" value="ตรวจและอนุมัติค่าใช้จ่าย"> อนุมัติค่าใช้จ่าย</label><label><input type="checkbox" name="interest" value="Dashboard บัญชี"> Dashboard</label><label><input type="checkbox" name="interest" value="ดึงเอกสารจากอีเมล"> ดึงเอกสารจากอีเมล</label><label><input type="checkbox" name="interest" value="ออกเอกสารอัตโนมัติ"> เอกสารอัตโนมัติ</label><label><input type="checkbox" name="interest" value="กระทบยอดและรายงาน"> กระทบยอดและรายงาน</label></div></div><div class="field honeypot"><label>Website<input name="website" tabindex="-1" autocomplete="off"></label></div><input type="hidden" name="contact"><input type="hidden" name="interests"><input type="hidden" name="referrer" value="marketing_website"></div><label class="consent"><input type="checkbox" required><span>ยินยอมให้ทีมงานติดต่อกลับตามข้อมูลที่ให้ไว้เพื่อเปิดบัญชีทดลองและช่วยตั้งค่าระบบ อ่านรายละเอียดได้ที่ <a href="privacy.html">นโยบายความเป็นส่วนตัว</a></span></label><div class="form-actions"><button class="btn accent" type="submit">ส่งคำขอทดลองใช้</button><span class="form-note">ไม่มีค่าใช้จ่าย · ไม่มีการตัดเงินอัตโนมัติ</span></div></form></div></div>
+</section>
+</main>
+<footer class="footer"><div class="container"><div class="footer-grid"><div><a class="brand" href="#top"><span class="brand-mark">ร/จ</span><span class="brand-copy"><strong>รับจ่ายแบบไม่จำกัด</strong><span>Business Finance Workflow</span></span></a><p class="footer-about">ระบบจัดการรับ–จ่าย เบิก อนุมัติ เอกสาร และการทำงานของฝ่ายบัญชีผ่าน LINE และ Dashboard สำหรับธุรกิจที่อยากลดงานตามเอกสารและเห็นสถานะเดียวกันทั้งทีม</p></div><div><h4>ผลิตภัณฑ์</h4><div class="footer-links"><a href="#how">วิธีทำงาน</a><a href="#features">ฟีเจอร์</a><a href="#pricing">ราคา</a><a href="#trial">ทดลองใช้</a></div></div><div><h4>ช่วยเหลือ</h4><div class="footer-links"><a href="#faq">คำถามที่พบบ่อย</a><a href="#trial">ติดต่อทีมงาน</a><a href="refund.html">การยกเลิกและคืนเงิน</a></div></div><div><h4>กฎหมาย</h4><div class="footer-links"><a href="privacy.html">ความเป็นส่วนตัว</a><a href="terms.html">ข้อกำหนดการใช้บริการ</a><a href="refund.html">นโยบายคืนเงิน</a></div></div></div><div class="footer-bottom"><span>© 2026 รับจ่ายแบบไม่จำกัด · ผู้ให้บริการ: Deal Invest Co., Ltd.</span><span>บริการสำหรับจัดการ Workflow การเงินของธุรกิจ ไม่ใช่คำแนะนำด้านภาษี กฎหมาย หรือการลงทุน</span></div></div></footer>
+<script src="assets/site.js" defer></script>
+</body></html>
