@@ -1,0 +1,16 @@
+<!-- RUBJAI WEBSITE v2: ใส่ใน <head> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+html,body,button,input,select,textarea,a,label,small,strong,b,span,p,div,nav,header,footer,section,article,h1,h2,h3,h4,h5,h6{
+  font-family:"Kanit","Noto Sans Thai",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif!important;
+}
+button,input,select,textarea{font:inherit!important}
+</style>
+
+<!-- ถ้าใช้ไฟล์แยก: ใส่ก่อน </head> -->
+<link rel="stylesheet" href="/rubjai-site-update.css?v=2">
+
+<!-- และใส่ก่อน </body> -->
+<script src="/rubjai-site-update.js?v=2" defer></script>
