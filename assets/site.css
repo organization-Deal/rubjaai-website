@@ -1,26 +1,25 @@
 :root{
-  --bg:#f6f7fb;
+  --brand-navy:#111827;
+  --bg:#f7f8fc;
   --surface:#ffffff;
-  --surface-2:#f0f2f7;
-  --ink:#121316;
-  --muted:#656a73;
+  --surface-2:#f2f4f8;
+  --ink:#111827;
+  --muted:#667085;
   --line:#e4e7ec;
   --accent:#4f46e5;
-  --accent-2:#6d5dfc;
-  --accent-soft:#eeedff;
-  --good:#178a4b;
+  --accent-2:#6366f1;
+  --accent-soft:#eef2ff;
+  --good:#16a34a;
   --good-soft:#eaf8f0;
-  --warn:#c86d13;
-  --danger:#c83b3b;
+  --warn:#d97706;
+  --danger:#dc2626;
   --shadow:0 18px 50px rgba(18,19,22,.08);
   --radius:28px;
   --max:1180px;
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;background:var(--bg)}
-@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700;800&display=swap");
-
-body{margin:0;color:var(--ink);background:var(--bg);font-family:"Prompt","Noto Sans Thai","Leelawadee UI",sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+body{margin:0;color:var(--ink);background:var(--bg);font-family:"IBM Plex Sans Thai","Noto Sans Thai","Leelawadee UI",sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
 a{color:inherit;text-decoration:none}
 button,input,select,textarea{font:inherit}
 button{cursor:pointer}
@@ -39,7 +38,7 @@ img,svg{max-width:100%;display:block}
 .topbar{position:sticky;top:0;z-index:50;background:rgba(246,247,251,.86);backdrop-filter:blur(20px);border-bottom:1px solid rgba(228,231,236,.78)}
 .nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:24px}
 .brand{display:flex;align-items:center;gap:12px;min-width:max-content}
-.brand-mark{width:38px;height:38px;border-radius:13px;background:#111;color:#fff;display:grid;place-items:center;font-weight:900;letter-spacing:-.06em;box-shadow:0 8px 22px rgba(18,19,22,.16)}
+.brand-mark{width:38px;height:38px;border-radius:13px;background:linear-gradient(145deg,var(--brand-navy),#0b1220);color:#fff;display:grid;place-items:center;font-weight:900;letter-spacing:-.06em;box-shadow:0 8px 22px rgba(18,19,22,.16)}
 .brand-copy{display:flex;flex-direction:column;line-height:1.12}
 .brand-copy strong{font-size:15px;letter-spacing:-.01em}
 .brand-copy span{font-size:10px;color:var(--muted);margin-top:4px}
@@ -69,7 +68,7 @@ img,svg{max-width:100%;display:block}
 .app-label{margin-left:9px;font-size:11px;color:var(--muted);font-weight:700}
 .app-body{display:grid;grid-template-columns:92px 1fr;min-height:390px}
 .app-side{border-right:1px solid var(--line);padding:18px 10px;background:#fbfbfc}
-.side-brand{height:28px;background:#151515;border-radius:9px;margin-bottom:20px}
+.side-brand{height:28px;background:var(--brand-navy);border-radius:9px;margin-bottom:20px}
 .side-line{height:8px;border-radius:99px;background:#e8eaee;margin:12px 3px}
 .side-line.on{background:#dcd9ff}
 .app-main{padding:24px}
@@ -84,7 +83,7 @@ img,svg{max-width:100%;display:block}
 .flow-row strong{font-size:10px;display:block}
 .flow-row span{font-size:8px;color:var(--muted)}
 .status{font-size:8px;font-weight:800;border-radius:99px;padding:5px 7px;background:var(--good-soft);color:var(--good)}
-.phone{position:absolute;left:-10px;bottom:2px;width:225px;background:#121316;border-radius:34px;padding:9px;box-shadow:0 30px 70px rgba(18,19,22,.23);transform:rotate(-4deg)}
+.phone{position:absolute;left:-10px;bottom:2px;width:225px;background:var(--brand-navy);border-radius:34px;padding:9px;box-shadow:0 30px 70px rgba(18,19,22,.23);transform:rotate(-4deg)}
 .phone-screen{min-height:390px;border-radius:27px;background:#f3f4f6;padding:16px 12px;overflow:hidden}
 .phone-head{text-align:center;font-size:9px;font-weight:800;padding:7px 0 14px;border-bottom:1px solid #e0e2e6}
 .chat{margin-top:13px;display:grid;gap:9px}
@@ -146,3 +145,11 @@ img,svg{max-width:100%;display:block}
   .container{width:min(100% - 24px,var(--max))}.section{padding:66px 0}.section h2{font-size:36px}.nav{height:64px}.nav-actions>.btn:not(.menu-btn){display:none}.brand-copy span{display:none}.hero{padding-top:42px}.hero h1{font-size:50px}.hero-copy{font-size:16px}.hero-actions .btn{width:100%}.hero-note{display:grid;gap:8px}.hero-visual{min-height:500px}.app-window{width:92%;top:30px}.app-body{grid-template-columns:64px 1fr}.app-main{padding:16px}.stats{grid-template-columns:1fr 1fr}.stat:first-child{grid-column:1/-1}.phone{width:175px}.phone-screen{min-height:325px}.trust-box{grid-template-columns:1fr}.problem-grid{grid-template-columns:1fr}.before-after{grid-template-columns:1fr;padding:23px}.steps{grid-template-columns:1fr}.step{min-height:auto}.step:not(:last-child):after{content:"↓";right:auto;left:31px;top:auto;bottom:-14px;background:var(--bg);padding:0 4px}.feature-band{padding:20px}.feature-copy h3{font-size:24px}.feature-index{grid-template-columns:1fr}.pricing-wrap{padding:22px 14px;border-radius:24px}.pricing-top{display:grid}.pricing-top h2{font-size:34px}.pricing-grid{grid-template-columns:1fr}.price-card{min-height:auto}.price-card .btn{margin-top:22px}.trial-card{grid-template-columns:auto 1fr}.trial-card .btn{grid-column:1/-1;width:100%}.faq{grid-template-columns:1fr}.trial-copy-panel,.trial-form{padding:24px}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.form-actions{display:grid}.form-actions .btn{width:100%}.footer-grid{grid-template-columns:1fr}.footer-bottom{display:grid}.legal-card{padding:24px;border-radius:20px}.legal-card h1{font-size:32px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}.btn:hover,.problem-card:hover{transform:none}}
+
+
+/* RUBJAI_UNIFIED_BRAND_V786 — shared CI with Dashboard + LINE forms */
+html,body,button,input,select,textarea,a,label{
+  font-family:"IBM Plex Sans Thai","Noto Sans Thai","Leelawadee UI",sans-serif;
+}
+::selection{background:#c7d2fe;color:#111827}
+:focus-visible{outline:2px solid #4f46e5;outline-offset:2px}
